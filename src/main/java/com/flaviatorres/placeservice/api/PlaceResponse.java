@@ -6,8 +6,8 @@ public record PlaceResponse(
     String name, 
     String slug, 
     String city,
-    String states,
-    LocalDateTime created_at, 
-    LocalDateTime updated_at) {
+    String state,
+    LocalDateTime createdAt, 
+    LocalDateTime updatedAt) {
     
 }

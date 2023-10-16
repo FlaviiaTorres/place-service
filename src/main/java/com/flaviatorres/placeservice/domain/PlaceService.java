@@ -12,11 +12,12 @@ public class PlaceService {
 
     public PlaceService(PlaceRepository placeRepository) {
         this.placeRepository = placeRepository;
+        this.slg = Slugify.builder().build();
     }
 
     public Mono<Place> create(PlaceRequest placeRequest){
-        var place = new Place(null, placeRequest.name(), placeRequest.slug(), 
-        placeRequest.city(), placeRequest.states(), placeRequest.created_at(), placeRequest.updated_at());
+        var place = new Place(null, placeRequest.name(), slg.slugify(placeRequest.name()),
+        placeRequest.city(), placeRequest.state(), null, null);
         return placeRepository.save(place);
     }
     
