@@ -2,14 +2,7 @@
   Place Service
 </h1>
 
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=Youtube&message=@giulianabezerra&color=8257E5&labelColor=000000" alt="@giulianabezerra" />
- <img src="https://img.shields.io/static/v1?label=Tipo&message=Desafio&color=8257E5&labelColor=000000" alt="Desafio" />
-</p>
-
-API para gerenciar lugares (CRUD) que faz parte [desse desafio](https://github.com/RocketBus/quero-ser-clickbus/tree/master/testes/backend-developer) para pessoas desenvolvedoras backend que se candidatam para a ClickBus.
-
-O projeto foi elaborado [nesse vídeo](https://youtu.be/SsWZ4O9iWuo).
+API para gerenciar lugares (CRUD).
 
 ## Tecnologias
  
